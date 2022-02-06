@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn,
+.box_bg {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button {
+  background-color: transparent;
+}
+
+
+
+.bottom_bar {
+  background-image: url('../images/bg_panel.png');
+  background-position: 0 45px;
+  width: 1800px;
+  height: 250px;
+  display: flex;
+  margin: 120px auto 0 auto;
+  padding-top: 45px;
+}
+
+.info_box_btn {
+  width: 72px;
+  height: 72px;
+  background-image: url('../images/icon_info/icon_info_normal.png');
+  margin-top: 43px;
+  margin-left: 100px;
+}
+.info_box_btn:hover {
+  background-image: url('../images/icon_info/icon_info_hover.png');
+}
+.info_box_btn:active {
+  background-image: url('../images/icon_info/icon_info_click.png');
+}
+
+.total_bet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 265px;
+  height: 72px;
+  background-image: url('../images/bg_total_bet.png');
+  margin-top: 43px;
+  margin-left: 10px;
+}
+
+.totel_bet_minus_btn,
+.totel_bet_plus_btn {
+  width: 50px;
+  height: 50px;
+  background-image: url('../images/icons_plus_minus/icon_minus_normal.png');
+}
+
+.totel_bet_plus_btn {
+  background-image: url('../images/icons_plus_minus/icon_plus_normal.png');
+}
+
+.totel_bet_minus_btn:hover {
+  background-image: url('../images/icons_plus_minus/icon_minus_hover.png');
+}
+
+.totel_bet_minus_btn:active {
+  background-image: url('../images/icons_plus_minus/icon_minus_click.png');
+}
+
+.totel_bet_plus_btn:hover {
+  background-image: url('../images/icons_plus_minus/icon_plus_hover.png');
+}
+
+.totel_bet_plus_btn:active {
+  background-image: url('../images/icons_plus_minus/icon_plus_click.png');
+}
+
+
+.turbo_box_input {
+  display: none;
+}
+
+.turbo_box_chbox {
+  display: block;
+  position: relative;
+  width: 114px;
+  height: 72px;
+  margin-top: 43px;
+  margin-left: -5px;
+  background-image: url('../images/bg_turbo_green.png');
+  transition: background-image .5s;
+}
+
+.turbo_box_chbox:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 104px;
+  height: 39px;
+  top: 8px;
+  left: 6px;
+  background-image: url('../images/icon_turbo/icon_turbo_normal.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: top .5s;
+}
+
+.turbo_box_chbox:hover:after {
+  background-image: url('../images/icon_turbo/icon_turbo_hover.png');
+}
+
+.turbo_box_chbox:active:after {
+  background-image: url('../images/icon_turbo/icon_turbo_click.png');
+}
+
+.turbo_box_input:checked ~ .turbo_box_chbox {
+  background-image: url('../images/bg_turbo_red.png');
+}
+
+.turbo_box_input:checked ~ .turbo_box_chbox:after {
+  top: 28px;
+}
+
