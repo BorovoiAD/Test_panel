@@ -1,1 +1,1 @@
- https://borovoiad.github.io/Test_panel/
+https://borovoiad.github.io/test_panel/
