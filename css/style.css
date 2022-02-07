@@ -26,7 +26,7 @@ button {
 }
 
 .bottom_bar {
-  background-image: url('/images/bg_panel.png');
+  background-image: url('../images/bg_panel.png');
   background-position: 0 45px;
   width: 1800px;
   height: 250px;
@@ -38,15 +38,15 @@ button {
 .info_box_btn {
   width: 72px;
   height: 72px;
-  background-image: url('/images/icon_info/icon_info_normal.png');
+  background-image: url('../images/icon_info/icon_info_normal.png');
   margin-top: 43px;
   margin-left: 100px;
 }
 .info_box_btn:hover {
-  background-image: url('/images/icon_info/icon_info_hover.png');
+  background-image: url('../images/icon_info/icon_info_hover.png');
 }
 .info_box_btn:active {
-  background-image: url('/images/icon_info/icon_info_click.png');
+  background-image: url('../images/icon_info/icon_info_click.png');
 }
 
 .total_bet {
@@ -56,7 +56,7 @@ button {
   padding: 10px;
   width: 265px;
   height: 72px;
-  background-image: url('/images/bg_total_bet.png');
+  background-image: url('../images/bg_total_bet.png');
   margin-top: 43px;
   margin-left: 10px;
 }
@@ -65,27 +65,27 @@ button {
 .totel_bet_plus_btn {
   width: 50px;
   height: 50px;
-  background-image: url('/images/icons_plus_minus/icon_minus_normal.png');
+  background-image: url('../images/icons_plus_minus/icon_minus_normal.png');
 }
 
 .totel_bet_plus_btn {
-  background-image: url('/images/icons_plus_minus/icon_plus_normal.png');
+  background-image: url('../images/icons_plus_minus/icon_plus_normal.png');
 }
 
 .totel_bet_minus_btn:hover {
-  background-image: url('/images/icons_plus_minus/icon_minus_hover.png');
+  background-image: url('../images/icons_plus_minus/icon_minus_hover.png');
 }
 
 .totel_bet_minus_btn:active {
-  background-image: url('/images/icons_plus_minus/icon_minus_click.png');
+  background-image: url('../images/icons_plus_minus/icon_minus_click.png');
 }
 
 .totel_bet_plus_btn:hover {
-  background-image: url('/images/icons_plus_minus/icon_plus_hover.png');
+  background-image: url('../images/icons_plus_minus/icon_plus_hover.png');
 }
 
 .totel_bet_plus_btn:active {
-  background-image: url('/images/icons_plus_minus/icon_plus_click.png');
+  background-image: url('../images/icons_plus_minus/icon_plus_click.png');
 }
 
 .total_bet_count,
@@ -136,13 +136,13 @@ button {
   height: 72px;
   margin-top: 43px;
   margin-left: 15px;
-  background-image: url('/images/bg_coin.png');
+  background-image: url('../images/bg_coin.png');
 }
 
 .win_box {
   width: 610px;
   height: 150px;
-  background-image: url('/images/bg_win.png');
+  background-image: url('../images/bg_win.png');
   margin-top: 10px;
   margin-left: -10px;
 }
@@ -158,7 +158,7 @@ button {
   height: 72px;
   margin-top: 43px;
   margin-left: -5px;
-  background-image: url('/images/bg_turbo_green.png');
+  background-image: url('../images/bg_turbo_green.png');
   transition: background-image .5s;
 }
 
@@ -170,22 +170,22 @@ button {
   height: 39px;
   top: 8px;
   left: 6px;
-  background-image: url('/images/icon_turbo/icon_turbo_normal.png');
+  background-image: url('../images/icon_turbo/icon_turbo_normal.png');
   background-repeat: no-repeat;
   background-size: contain;
   transition: top .5s;
 }
 
 .turbo_box_chbox:hover:after {
-  background-image: url('/images/icon_turbo/icon_turbo_hover.png');
+  background-image: url('../images/icon_turbo/icon_turbo_hover.png');
 }
 
 .turbo_box_chbox:active:after {
-  background-image: url('/images/icon_turbo/icon_turbo_click.png');
+  background-image: url('../images/icon_turbo/icon_turbo_click.png');
 }
 
 .turbo_box_input:checked ~ .turbo_box_chbox {
-  background-image: url('/images/bg_turbo_red.png');
+  background-image: url('../images/bg_turbo_red.png');
 }
 
 .turbo_box_input:checked ~ .turbo_box_chbox:after {
@@ -200,17 +200,17 @@ button {
 .auto_box_input {
   width: 255px;
   height: 72px;
-  background-image: url('/images/btn_auto_stop/icon_stop_normal.png');
+  background-image: url('../images/btn_auto_stop/icon_stop_normal.png');
   position: relative;
   z-index: 1;
 }
 
 .auto_box_input:hover {
-  background-image: url('/images/btn_auto_stop/icon_stop_hover.png');
+  background-image: url('../images/btn_auto_stop/icon_stop_hover.png');
 }
 
 .auto_box_input:active {
-  background-image: url('/images/btn_auto_stop/icon_stop_click.png');
+  background-image: url('../images/btn_auto_stop/icon_stop_click.png');
 }
 
 .auto_box_input > input {
@@ -221,7 +221,7 @@ button {
   width: 40px;
   height: 40px;
   display: block;
-  background-image: url('/images/icon_spin_counter.png');
+  background-image: url('../images/icon_spin_counter.png');
   color: #ff0;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
@@ -238,23 +238,23 @@ button {
   display: block;
   width: 255px;
   height: 72px;
-  background-image: url('/images/btn_auto_stop/icon_auto_normal.png');
+  background-image: url('../images/btn_auto_stop/icon_auto_normal.png');
   position: relative;
   z-index: 1;
 }
 
 .auto_box_btn_auto:hover {
-  background-image: url('/images/btn_auto_stop/icon_auto_hover.png');
+  background-image: url('../images/btn_auto_stop/icon_auto_hover.png');
 }
 
 .auto_box_btn_auto:active {
-  background-image: url('/images/btn_auto_stop/icon_auto_click.png');
+  background-image: url('../images/btn_auto_stop/icon_auto_click.png');
 }
 
 .auto_box_chbox_choise {
   width: 200px;
   height: 190px;
-  background-image: url('/images/bg_count_spin.png');
+  background-image: url('../images/bg_count_spin.png');
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -297,15 +297,15 @@ button {
   display: block;
   width: 100%;
   height: 100%;
-  background-image: url('/images/btn_spin_normal.png');
+  background-image: url('../images/btn_spin_normal.png');
   position: relative;
   z-index: 1;
 }
 .spin_box_btn:hover {
-  background-image: url('/images/btn_spin_hover.png');
+  background-image: url('../images/btn_spin_hover.png');
 }
 .spin_box_btn:active {
-  background-image: url('/images/btn_spin_click.png');
+  background-image: url('../images/btn_spin_click.png');
 }
 
 .spin_box_btn:after {
@@ -314,7 +314,7 @@ button {
   width: 150px;
   height: 124px;
   position: absolute;
-  background-image: url('/images/btn_spin_sing.png');
+  background-image: url('../images/btn_spin_sing.png');
   background-repeat: no-repeat;
   background-size: contain;
   left: calc(50% - 75px);
