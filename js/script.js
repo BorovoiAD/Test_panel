@@ -1,9 +1,13 @@
 let showCountSpin = () => {
   let autoBoxChboxChoise = document.querySelector('.auto_box_chbox_choise');
-  if(!autoBoxChboxChoise.classList.contains('show_aotu_box_choise')) {
-    autoBoxChboxChoise.classList.add('show_aotu_box_choise');
-  }
+  
+  autoBoxChboxChoise.classList.toggle('show_aotu_box_choise');
 }
+
+document.addEventListener('mouseup', function (e) {
+  if(e.target != document.querySelector('.auto_box_btn_auto'))
+  document.querySelector('.auto_box_chbox_choise').classList.remove('show_aotu_box_choise');
+})
 
 document.querySelector('.auto_box_btn_auto').onclick = showCountSpin;
 
@@ -67,6 +71,8 @@ let minusCoin = () => {
       variableNum = Number.parseFloat(minusTotal.innerHTML.slice(1));
   
   
+
+       variable = 6;
   variableNum = ((variableNum - .1)).toFixed(2);
 
   (variableNum * 100) % 100 == 0 ? minusTotal.innerHTML = variableSymb + Math.ceil(variableNum) : minusTotal.innerHTML = variableSymb + variableNum;
@@ -102,7 +108,7 @@ document.querySelector('.totel_bet_plus_btn').onclick = plusCoin;
 let sound = document.querySelectorAll('.btn');
 
 for( let i = 0; i < sound.length; ++i) {
-  sound[i].addEventListener('click',function(){
+  sound[i].addEventListener('click', function(){
     let myAudio = new Audio('../test_panel/sound/Button_Click.wav');
     myAudio.play();
   });
